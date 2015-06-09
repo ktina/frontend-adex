@@ -1,4 +1,4 @@
-c<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -13,7 +13,7 @@ c<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/s
 
 	<nav>
 		<div class="nav-wrapper">
-			<a href="#" class="brand-logo">Logo</a>
+			<a href="#" class="brand-logo"><img src="doc/logo.png" width="124" /></a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="help.html">Hilfe</a></li>
 				<li><a href="privacy.html">Datenschutz</a></li>
@@ -21,7 +21,6 @@ c<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/s
 			</ul>
 		</div>
 	</nav>
-
 	<br />
 	<br />
 	<br />
@@ -94,7 +93,7 @@ c<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/s
 		<div class="row">
 			<div class="col s12">
 				<div class="label">
-					<br> <label for="ASIN">ASIN (10 stellig?)</label> </br>
+					<br> <label for="ASIN">ASIN (10 stellig)</label> </br>
 					<input type="text" name="ASIN" id="ASIN" value=""
 					size="50" maxlength="50" />
 					</div>
@@ -239,7 +238,7 @@ c<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/s
 	<footer class="page-footer">
           <div class="container">
             <div class="row">
-              <div class="#bdbdbd grey lighten-1">
+              <div class="col l6 s12">
                 <h5 class="white-text">Footer Content</h5>
                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
               </div>
@@ -261,9 +260,6 @@ c<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/s
             </div>
           </div>
         </footer>
-		
 	
-</body>
-</html>
 </body>
 </html>
