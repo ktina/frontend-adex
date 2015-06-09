@@ -1,126 +1,269 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+c<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1344.72">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>Adex</title>
+	<link href="materialize/css/materialize.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="materialize/js/jquery-1.11.3.min.js"></script>
+	<script src="materialize/js/materialize.js"></script>
 </head>
 <body>
 
-<div id="div0" style="display:inline; width:50%">
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">Logo</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="help.html">Hilfe</a></li>
+				<li><a href="privacy.html">Datenschutz</a></li>
+				<li><a href="imprint.html">Impressum</a></li>
+			</ul>
+		</div>
+	</nav>
 
+	<br />
+	<br />
+	<br />
 
-      	<p>
-		<br> <label for="Autor">Autor</label> </br>
-		<input type="text" name="Autor" id="Autor" value=""
-		size="50" maxlength="50" />
-		</p>
- </div>
-	<div id="div0" style="display:inline; width:50%">  
-		<p>
-		<br> <label for="Buchtitel">Buchtitel</label> </br>
-		<input type="text" name="Buchtitel" id="Buchtitel" value=""
-		size="50" maxlength="50" />
-		</p>
+	<div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<br> <label for="Autor">Autor</label> </br>
+					<input type="text" name="Autor" id="Autor" value=""
+					size="50" maxlength="50" />
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+	<div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<br> <label for="Buchtitel">Buchtitel</label> </br>
+					<input type="text" name="Buchtitel" id="Buchtitel" value=""
+					size="50" maxlength="50" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<br> <label for="Verlag">Verlag</label> </br>
+					<input type="text" name="Verlag" id="Verlag" value=""
+					size="50" maxlength="50" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<br> <label for="Erscheinungsjahr">Erscheinungsjahr</label> </br>
+					<input type="text" name="Erscheinungsjahr" id="Erscheinungsjahr" value=""
+					size="50" maxlength="50" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<br> <label for="ISBN">ISBN (10- oder 13-stellig, ohne Bindestriche)</label> </br>
+					<input type="text" name="ISBN" id="ISBN" value=""
+					size="50" maxlength="50" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+    <div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<br> <label for="ASIN">ASIN (10 stellig?)</label> </br>
+					<input type="text" name="ASIN" id="ASIN" value=""
+					size="50" maxlength="50" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
 
-	</p>
-		<br> <label for="Verlag">Verlag</label> </br>
-		<input type="text" name="Verlag" id="Verlag" value=""
-		size="50" maxlength="50" />
-	</p>
-	</p>
-		<br> <label for="Erscheinungsjahr">Erscheinungsjahr</label> </br>
-		<input type="text" name="Erscheinungsjahr" id="Erscheinungsjahr" value=""
-		size="50" maxlength="50" />
-	</p>
-	<p>
-		<br> <label for="ISBN">ISBN (10- oder 13-stellig, ohne Bindestriche)</label> </br>
-		<input type="text" name="ISBN" id="ISBN" value=""
-		size="50" maxlength="50" />
-	</p>
+	<div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<label>Erscheinungsdatum</label>
+					<select class="browser-default">
+					<option value="" disabled selected>erschienen</option>
+					<option value="1">vor</option>
+					<option value="2">nach</option>
+					<option value="3">im</option>
+					</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
 	
-	
-	<p>
-		<br> <label for="ASIN">ASIN (10 stellig?)</label> </br>
-		<input type="text" name="ASIN" id="ASIN" value=""
-		size="50" maxlength="50" />
-	</p>
-	
-		<br> <label for="Erscheinunsdatum">Erscheinunsdatum</label> </br>
-		<select name="" size="">
-		<option value="erstens">vor</option>
-		<option value="zweitens">nach</option>
-		<option value="zweitens">im</option>
-		</select>
-		
-		<br> <label for="Monat">Monat</label> </br>
-		<input type="text" name="Monat" id="Monat" value=""
-		size="2" maxlength="2" />
-	
-		<br> <label for="Jahr">Jahr</label> </br>
-		<input type="text" name="Jahr" id="Jahr" value=""
-		size="4" maxlength="4" />
+	<div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<label>Monat</label>
+					<select class="browser-default">
+					<option value="" disabled selected>Monat</option>
+					<option value="1">Januar</option>
+					<option value="2">Februar</option>
+					<option value="3">März</option>
+					<option value="4">April</option>
+					<option value="5">Mai</option>
+					<option value="6">Juni</option>
+					<option value="7">Juli</option>
+					<option value="8">August</option>
+					<option value="9">September</option>
+					<option value="10">Oktober</option>
+					<option value="11">November</option>
+					<option value="11">Dezember</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>	
 
-   		
-	<p>
-		<br> <label for="Fotmat">Format</label> </br>
-		<select name="" size="">
-		<option value="erstens">Hardcover</option>
-		<option value="zweitens">Tachenbuch</option>
-		<option value="zweitens">E-Book</option>
-		</select>
-		</p>
-		
-		<p>
-		<br> <label for="Kategorie">Kategorie</label> </br>
-		<select name="" size="">
-		<option value="erstens">Bellistik</option>
-		<option value="zweitens">Biografien</option>
-		<option value="drittens">Börse</option>
-		<option value="viertens">Comics & Mangas</option>
-		<option value="fünftens">Computer & Internet</option>
-		<option value="sechstens">Erotik</option>
-		<option value="siebtens">Esoterik</option>
-		<option value="achtens">Fachbücher</option>
-		<option value="neuntens">Fantasie & Science Fiction</option>
-		<option value="zehntens">Film, Kunst & Kultur</option>
-		<option value="elftens">Freizeit, Haus & Garten</option>
-		<option value="szwölftens">Geschenkbücher</option>
-		<option value="dreizehntens">Horror</option>
-		<option value="vierzehntens">Kalender</option>
-		<option value="fünfzehntens">Kinder & Jugendtliche</option>
-		<option value="sechzehntens">Kochen & Genießen</option>
-		<option value="siebzehntens">Krimis & Thriller</option>
-		<option value="achzehntens">Lernen & Nachschlagen</option>
-		<option value="neunzehntens">Musiknoten</option>
-		<option value="zwanzigstes">Naturwissenschaften & Technik</option>
-		<option value="einundzwanzigstes">Politik und Geschichte</option>
-		<option value="zweiundzwanzgstes">Ratgeber</option>
-		<option value="dreiundzwanzigstes">Reise & Abenteuer</option>
-		<option value="vierundzwantigstes">Religion & Glaube</option>
-		<option value="fünfundzwanzigstes">Sport und Fitness</option>
-		</select>
-		</p>
+	
+	<div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<br> <label for="Jahr">Jahr</label> </br>
+					<input type="text" name="Jahr" id="Jahr" value=""
+					size="4" maxlength="4" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+   	<div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<label>Format</label>
+					<select class="browser-default">
+					<option value="" disabled selected>Format</option>
+					<option value="1">Hardcover</option>
+					<option value="2">Tachenbuch</option>
+					<option value="3">E-Book</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+   	<div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+				<label>Kategorie</label>
+				<select class="browser-default">
+					<option value="" disabled selected>Kategorie</option>
+					<option value="1">Bellistik</option>
+					<option value="2">Biografien</option>
+					<option value="3">Börse</option>
+					<option value="4">Comics & Mangas</option>
+					<option value="5">Computer & Internet</option>
+					<option value="6">Erotik</option>
+					<option value="7">Esoterik</option>
+					<option value="8">Fachbücher</option>
+					<option value="9">Fantasie & Science Fiction</option>
+					<option value="10">Film, Kunst & Kultur</option>
+					<option value="11">Freizeit, Haus & Garten</option>
+					<option value="12">Geschenkbücher</option>
+					<option value="13">Horror</option>
+					<option value="14">Kalender</option>
+					<option value="15">Kinder & Jugendtliche</option>
+					<option value="16">Kochen & Genießen</option>
+					<option value="17">Krimis & Thriller</option>
+					<option value="18">Lernen & Nachschlagen</option>
+					<option value="19">Musiknoten</option>
+					<option value="20">Naturwissenschaften & Technik</option>
+					<option value="21">Politik und Geschichte</option>
+					<option value="22">Ratgeber</option>
+					<option value="23">Reise & Abenteuer</option>
+					<option value="24">Religion & Glaube</option>
+					<option value="25">Sport und Fitness</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>	
    
-   	<p>
-		<br> <label for="Sortierung">Sortieren nach</label> </br>
-		<select name="" size="">
-		<option value="erstens">Beste Bewertung</option>
-		<option value="zweitens">Niedrigster Preis</option>
-		<option value="zweitens">Höchster Preis</option>
-		<option value="viertens">Beste Bewertung</option>
-		<option value="fünftens">Erscheinungsdatum</option>
-		</select>
-		</p>
+  <div class="col-3">
+		<div class="row">
+			<div class="col s12">
+				<div class="label">
+					<label>Sortieren nach</label>
+					<select class="browser-default">
+						<option value="" disabled selected>Sortieren nach</option>
+						<option value="1">Beste Bewertung</option>
+						<option value="2">Niedrigster Preis</option>
+						<option value="3">Höchster Preis</option>
+						<option value="4">Beste Bewertung</option>
+						<option value="5">Erscheinungsdatum</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>	
 		
-	<form name="Suche" action="" method="get" enctype="text/html">
-	<input type="Submit" name="Suche" value="Suche" />
-	</form>
+
+	<button class="ffb74d orange lighten-2" type="submit" name="action">Suche <i class="mdi-content-send right"></i></button>
+	
+	
+
+	<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="#bdbdbd grey lighten-1">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+		
+	
+</body>
+</html>
 </body>
 </html>
